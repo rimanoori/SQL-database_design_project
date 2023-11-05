@@ -1,0 +1,154 @@
+CREATE TABLE Student_Info(
+	Student_ID INT PRIMARY KEY,
+	Student_Fname VARCHAR(65),
+	Student_Lname VARCHAR(65),
+	Student_Year VARCHAR(65),
+	Student_Major VARCHAR(60),
+	Student_Minor VARCHAR(60),
+	Student_GPA FLOAT,
+	Student_Type INT,
+	Courses_Passed INT,
+	Courses_Failed INT,
+	Student_Staff INT,
+	Department_ID VARCHAR(40),
+	Student_Date_of_Birth VARCHAR(20),
+	Student_Age INT,
+	Student_Gender VARCHAR(8),
+	Student_Address VARCHAR(400),
+	Student_Phone VARCHAR(10),
+	Student_Emai VARCHAR(25)
+	);
+	
+	
+	
+INSERT INTO Student_Info (Student_ID, Student_Fname, Student_Lname, Student_Year, Student_Major, Student_Minor, Student_GPA, Student_Type, Courses_Passed, Courses_Failed, Student_Staff, Department_ID, Student_Date_of_Birth, Student_Age, Student_Gender, Student_Address, Student_Phone, Student_Emai)
+VALUES
+(1, 'John', 'Doe', 'Freshman', 'Computer Science', 'Mathematics', 3.8, 1, 4, 1, 0, 'CS', '1990-01-01', 22, 'Male', '123 Main Street, Anytown, CA 91234', '1234567890', 'johndoe@example.com'),
+(2, 'Jane', 'Smith', 'Sophomore', 'Business Administration', 'Marketing', 3.6, 1, 5, 2, 0, 'BA', '1991-02-02', 21, 'Female', '456 Elm Street, Anytown, CA 91234', '4567890123', 'janesmith@example.com'),
+(3, 'Bob', 'Jones', 'Junior', 'Engineering', 'Mechanical Engineering', 3.4, 1, 6, 3, 0, 'EN', '1992-03-03', 20, 'Male', '789 Oak Street, Anytown, CA 91234', '7890123456', 'bob琼斯@example.com'),
+(4, 'Mary', 'Johnson', 'Senior', 'Education', 'Elementary Education', 3.2, 1, 7, 4, 0, 'ED', '1993-04-04', 19, 'Female', '1011 Pine Street, Anytown, CA 91234', '1011121234', 'maryjohnson@example.com'),
+(5, 'Tom', 'Brown', 'Graduate', 'Law', 'Criminal Justice', 3.0, 2, 8, 5, 0, 'LW', '1994-05-05', 18, 'Male', '1213 Maple Street, Anytown, CA 91234', '1211231345', 'tombrown@example.com'),
+(6, 'Susan', 'Williams', 'Graduate', 'Business Administration', 'Finance', 2.8, 2, 9, 6, 0, 'BA', '1995-06-06', 17, 'Female', '1314 Birch Street, Anytown, CA 91234', '1311341456', 'susanw威廉姆斯@example.com'),
+(7, 'David', 'Walker', 'Graduate', 'Engineering', 'Civil Engineering', 2.6, 2, 10, 7, 0, 'EN', '1996-07-07', 16, 'Male', '1415 Cedar Street, Anytown, CA 91234', '1411451567', 'davidwalker@example.com'),
+(8, 'Sarah', 'Anderson', 'Graduate', 'Education', 'Curriculum and Instruction', 2.4, 2, 11, 8, 0, 'ED', '1997-08-08', 15, 'Female', '1516 Cypress Street, Anytown, CA 91234', '1511561678', 'saraherson@example.com'),
+(9, 'Michael', 'Johnson', 'Graduate', 'Law', 'International Law', 2.2, 2, 12, 9, 0, 'LW', '1998-09-09', 14, 'Male', '1617 Dogwood Street, Anytown, CA 91234', '1611671789', 'michohnson@example.com')
+
+
+
+
+
+
+
+INSERT INTO Student_Info (Student_ID, Student_Fname, Student_Lname, Student_Year, Student_Major, Student_Minor, Student_GPA, Student_Type, Courses_Passed, Courses_Failed, Student_Staff, Department_ID, Student_Date_of_Birth, Student_Age, Student_Gender, Student_Address, Student_Phone, Student_Emai)
+VALUES
+(9345, 'Michael', 'Johnson', 'Graduate', 'Law', 'International Law', 2.2, 2, 12, 9, 0, 'LW', '1998-09-09', 14, 'Male', '1617 Dogwood Street, Anytown, CA 91234', '1611671789', 'michohn@example.com'),
+(15620, 'Ashley', 'Williams', 'Undergraduate', 'Business', 'Accounting', 3.8, 1, 18, 3, 0, 'BU', '1999-05-15', 13, 'Female', '456 Oak Avenue, Anytown, CA 91234', '1611671789', 'ashleyams@exe.com'),
+(12561, 'Daniel', 'Smith', 'Graduate', 'Engineering', 'Computer Science', 3.5, 2, 15, 6, 0, 'EN', '1997-11-23', 15, 'Male', '123 Maple Street, Anytown, CA 91234', '1611671789', 'danith@example.com'),
+(1652, 'Jessica', 'Jones', 'Undergraduate', 'Education', 'Elementary Education', 3.2, 1, 12, 9, 0, 'ED', '2000-03-08', 12, 'Female', '789 Elm Street, Anytown, CA 91234', '1611671789', 'jcajones@example.com'),
+(124563, 'Christopher', 'Brown', 'Undergraduate', 'Science', 'Biology', 3.0, 1, 15, 6, 0, 'SC', '1999-09-19', 13, 'Male', '1011 Pine Street, Anytown, CA 91234', '1611671789', 'chriown@example.com'),
+(764314, 'Samantha', 'Davis', 'Graduate', 'Business', 'Finance', 3.7, 2, 18, 3, 0, 'BU', '1998-07-11', 14, 'Female', '1234 Willow Street, Anytown, CA 91234', '1611671789', 'samanis@example.com'),
+(634715, 'William', 'Miller', 'Undergraduate', 'Engineering', 'Mechanical Engineering', 3.3, 1, 15, 6, 0, 'EN', '2000-01-17', 12, 'Male', '5678 Oak Avenue, Anytown, CA 91234', '1611671789', 'wmmiller@example.com'),
+(16467, 'Olivia', 'Wilson', 'Graduate', 'Education', 'Curriculum and Instruction', 3.9, 2, 18, 3, 0, 'ED', '1997-12-29', 15, 'Female', '9012 Elm Street, Anytown, CA 91234', '1611671789', 'olivon@example.com'),
+(14767, 'Joseph', 'Taylor', 'Undergraduate', 'Science', 'Chemistry', 3.1, 1, 12, 9, 0, 'SC', '1999-05-03', 13, 'Male', '3456 Pine Street, Anytown, CA 91234', '1611671789', 'jlor@example.com');
+
+
+
+
+CREATE TABLE Courses(
+	Course_Name VARCHAR(60),
+	Course_ID INT PRIMARY KEY,
+	Midterm_1 INT,
+	Midterm_2 INT,
+	Final_Exam INT,
+	Student_ID INT,
+	Start_Date VARCHAR(60),
+	End_Date VARCHAR(60),
+	Credit_Hours INT,
+	Section_Number VARCHAR(2),
+	Room_ID VARCHAR(5),
+	Semester VARCHAR(15),
+	Course_taken_Date VARCHAR(15),
+	Description VARCHAR(400)
+	);
+	
+	
+INSERT INTO Courses (Course_Name, Course_ID, Midterm_1, Midterm_2, Final_Exam, Student_ID, Start_Date, End_Date, Credit_Hours, Section_Number, Room_ID, Semester, Course_taken_Date, Description)
+VALUES
+('Introduction to Computer Science', 101, 85, 90, 95, 1001, '2023-01-16', '2023-05-05', 3, 'A', '101', 'Spring 2023', '2023-05-05', 'This course is an introduction to the field of computer science.'),
+('Data Structures and Algorithms', 201, 90, 95, 100, 1002, '2023-01-16', '2023-05-05', 3, 'B', '201', 'Spring 2023', '2023-05-05', 'This course covers the fundamental data structures and algorithms used in computer science.'),
+('Operating Systems', 301, 85, 90, 95, 1003, '2023-01-16', '2023-05-05', 3, 'C', '301', 'Spring 223', '2023-05-05', 'This course covers the principles of operating systems.'),
+('Computer Networks', 401, 80, 85, 90, 1004, '2023-01-16', '2023-05-05', 3, 'D', '401', 'Spring 2023', '2023-05-05', 'This course covers the principles of computer networks.'),
+('Software Engineering', 501, 75, 80, 85, 1005, '2023-01-16', '2023-05-05', 3, 'E', '501', 'Spring 2023', '2023-05-05', 'This course covers the principles of software engineering.'),
+('Artificial Intelligence', 601, 70, 75, 80, 1006, '2023-01-16', '2023-05-05', 3, 'F', '601', 'Spring 2023', '2023-05-05', 'This course covers the principles of artificial intelligence.'),
+('Machine Learning', 701, 65, 70, 75, 1007, '2023-01-16', '2023-05-05', 3, 'G', '701', 'Spring 2023', '2023-05-05', 'This course covers the principles of machine learning.'),
+('Deep Learning', 801, 60, 65, 70, 1008, '2023-01-16', '2023-05-05', 3, 'H', '801', 'Spring 2023', '2023-05-05', 'This course covers the principles of deep learning.'),
+('Natural Language Processing', 901, 55, 60, 65, 1009, '2023-01-16', '2023-05-05', 3, 'I', '901', 'Spring 2023', '2023-05-05', 'This course covers the principles of natural language processing.'),
+('Computer Vision', 1001, 50, 55, 60, 1010, '2023-01-16', '2023-05-05', 3, 'J', '1001', 'Spring 2023', '2023-05-05', 'This course covers the principles of computer vision.');
+
+
+CREATE TABLE Department(
+	Department_ID INT PRIMARY KEY,
+	Department_Name VARCHAR(60),
+	Total_Employees INT,
+	Description VARCHAR(800)
+	);
+	
+	
+INSERT INTO Department (Department_ID, Department_Name, Total_Employees, Description)
+VALUES 
+(311, 'Math Department', 33, 'A department in charge of math courses'),
+(312, 'Science Department', 45, 'A department in charge of science courses'),
+(313, 'History Department', 28, 'A department in charge of history courses'),
+(314, 'English Department', 38, 'A department in charge of English courses'),
+(315, 'Computer Science Department', 55, 'A department in charge of computer science courses'),
+(316, 'Business Department', 42, 'A department in charge of business courses'),
+(317, 'Art Department', 25, 'A department in charge of art courses'),
+(318, 'Music Department', 30, 'A department in charge of music courses');
+
+
+
+CREATE TABLE Department(
+	Department_ID INT PRIMARY KEY,
+	Department_Name VARCHAR(60),
+	Total_Employees INT,
+	Description VARCHAR(800)
+	);
+	
+	
+INSERT INTO Department (Department_ID, Department_Name, Total_Employees, Description)
+VALUES 
+(311, 'Math Department', 33, 'A department in charge of math courses'),
+(312, 'Science Department', 45, 'A department in charge of science courses'),
+(313, 'History Department', 28, 'A department in charge of history courses'),
+(314, 'English Department', 38, 'A department in charge of English courses'),
+(315, 'Computer Science Department', 55, 'A department in charge of computer science courses'),
+(316, 'Business Department', 42, 'A department in charge of business courses'),
+(317, 'Art Department', 25, 'A department in charge of art courses'),
+(318, 'Music Department', 30, 'A department in charge of music courses');
+
+
+CREATE TABLE Department_Staff(
+Staff_ID INT PRIMARY KEY,
+Staff_Fname VARCHAR(60),
+Staff_Lname VARCHAR (60),
+Staff_Gender VARCHAR(50),
+Staff_Date_of_Birth VARCHAR(50),
+Staff_Address VARCHAR(500),
+Staff_Email VARCHAR (200),
+Staff_Salary INT,
+Department_ID INT,
+Employee_Type VARCHAR(40)
+);
+
+
+INSERT INTO Department_Staff (Staff_ID, Staff_Fname, Staff_Lname, Staff_Gender, Staff_Date_of_Birth, Staff_Address, Staff_Email, Staff_Salary, Department_ID, Employee_Type)
+VALUES
+(2, 'Jane', 'Doe', 'Female', '1991-02-02', '456 Elm Street', 'jane.doe@example.com', 60000, 2, 'Part-time'),
+(3, 'John', 'Smith', 'Male', '1985-05-05', '123 Main Street', 'john.smith@example.com', 75000, 1, 'Full-time'),
+(4, 'Mary', 'Jones', 'Female', '1977-10-10', '789 Oak Street', 'mary.jones@example.com', 80000, 3, 'Part-time'),
+(5, 'Tom', 'Brown', 'Male', '1969-12-12', '456 Maple Street', 'tom.brown@example.com', 90000, 2, 'Full-time'),
+(6, 'Susan', 'Williams', 'Female', '1955-03-03', '123 Pine Street', 'susan.williams@example.com', 100000, 1, 'Part-time'),
+(7, 'David', 'Walker', 'Male', '1941-06-06', '789 Birch Street', 'david.walker@example.com', 110000, 3, 'Full-time'),
+(8, 'Margaret', 'Johnson', 'Female', '1933-09-09', '456 Cedar Street', 'margaret.johnson@example.com', 120000, 2, 'Part-time'),
+(9, 'Charles', 'Anderson', 'Male', '1925-12-12', '123 Willow Street', 'charles.anderson@example.com', 130000, 1, 'Full-time'),
+(10, 'Sarah', 'Taylor', 'Female', '1917-03-03', '789 Poplar Street', 'sarah.taylor@example.com', 140000, 3, 'Part-time');
